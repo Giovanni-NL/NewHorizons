@@ -62434,7 +62434,7 @@
     {
       "questID": 727,
       "name": "Better than barrels",
-      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system �9�1�2�1�4�5�9�f�k�f�e�d�o�r�o�m�l�k�f�e�d�8�7�5�1(Tec2k17)\"�0 later in the HV age with some help from ?cProjectRed Transportation.?6",
+      "description": "While barrels offer only a single slot for storage, drawers can go up to 4 slots each, 16 stacks in each slot. they can also be used to make a \"ghetto ME storage system �9�1�2�1�4�5�9�f�k�f�e�d�o�r�o�m�l�k�f�e�d�8�7�5�1(Tec2k17)\"�0 later in the HV age with some help from \"ProjectRed Transportation.\"",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -65070,8 +65070,8 @@
     },
     {
       "questID": 750,
-      "name": "Molten Platic",
-      "description": "Molten polyethylene can be made in the chemical reactor using naptha and compressed air cells. Biomass is also a source for making Polyethylen. Use a mold for making plates in a fluid solidifier to make plastic sheets.",
+      "name": "Molten Plastic",
+      "description": "Molten polyethylene can be made in the chemical reactor using naptha and compressed air cells. Biomass is also a source for making Polyethylene. Use a mold for making plates in a fluid solidifier to make plastic sheets.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
