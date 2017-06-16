@@ -1246,6 +1246,18 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32316>, <liquid:ste
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32317>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 // -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32318>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32319>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32320>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32321>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32322>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32323>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
+// -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32350>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
 // -
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:32351>, <liquid:steel.molten> * 576, 800, <IC2:blockMetal:5>);
@@ -1346,6 +1358,9 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:17089>, <liquid:lea
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:23089>, <liquid:lead.molten> * 72, 400, <IC2:blockMetal:4>);
 // -
 mods.tconstruct.Smeltery.addMelting(<IC2:blockMetal:4>, <liquid:lead.molten> * 1296, 400, <IC2:blockMetal:4>);
+
+// --- Glass Bottle
+mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_bottle>, <liquid:glass.molten> * 144, <gregtech:gt.metaitem.01:32305>, false, 200);
 
 
 // --- Seared Tank
@@ -2346,6 +2361,15 @@ recipes.addShaped(TBoots.withTag({TinkerArmor: {BaseDurability: 1035, BaseDefens
 [null, <minecraft:diamond_boots>, <ore:circuitAdvanced>],
 [<harvestcraft:hardenedleatherItem>, <gregtech:gt.metaitem.01:32642>, <gregtech:gt.metaitem.01:32642>]]);
 
+// --- Cobalt Ingot
+recipes.addShapeless(<TConstruct:materials:3>, [<gregtech:gt.metaitem.01:11033>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:11033>, [<TConstruct:materials:3>]);
+
+// --- Manyullyn Ingot
+recipes.addShapeless(<TConstruct:materials:5>, [<gregtech:gt.metaitem.01:11386>]);
+// -
+recipes.addShapeless(<gregtech:gt.metaitem.01:11386>, [<TConstruct:materials:5>]);
 
 
 
@@ -2467,6 +2491,8 @@ Centrifuge.addRecipe([<gregtech:gt.metaitem.01:2033>, <TConstruct:materials:38>]
 
 // --- Block Of Manyullyn
 Compressor.addRecipe(<TConstruct:MetalBlock:2>, <TConstruct:materials:5> * 9);
+// -
+Compressor.addRecipe(<TConstruct:MetalBlock:2>, <gregtech:gt.metaitem.01:11386> * 9);
 
 // --- Block Of Alumite
 Compressor.addRecipe(<TConstruct:MetalBlock:8>, <TConstruct:materials:15> * 9);
